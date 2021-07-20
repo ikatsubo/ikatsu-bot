@@ -1,0 +1,19 @@
+{
+  "name": "ikatsu-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ikatsubo/ikatsu-bot.git",
+  "author": "U1F419 <tak.masuda@opt.ne.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "typescript": "^4.3.5"
+  }
+}
